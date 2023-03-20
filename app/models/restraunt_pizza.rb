@@ -1,0 +1,2 @@
+class RestrauntPizza < ApplicationRecord
+end

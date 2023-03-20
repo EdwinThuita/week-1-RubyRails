@@ -1,0 +1,2 @@
+class RestrauntPizzasController < ApplicationController
+end
