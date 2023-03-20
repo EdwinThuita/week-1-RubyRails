@@ -1,2 +1,0 @@
-class RestrauntPizza < ApplicationRecord
-end
