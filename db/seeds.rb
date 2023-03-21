@@ -25,5 +25,5 @@ restaurant4 = Restaurant.create(name: "Fully Tummy", address: "40th park")
 restaurant5 = Restaurant.create(name: "Mom's best food", address: "40th park")
 
 10.times do
-    restaurant_pizzas = restaurantPizza.create(price: rand(1..30), pizza_id: rand(1..10), restaurant_id: rand(1..5))
+    restaurant_pizzas = RestaurantPizza.create(price: rand(1..30), pizza_id: rand(1..10), restaurant_id: rand(1..5))
 end
